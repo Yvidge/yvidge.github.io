@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+$link-color: #ff8888;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Using floats */
+.grid-col {
+  float: left;
+  width: 50%;
+}
+
+/* 2 columns by default, hide columns 2 & 3 */
+.grid-col--2, .grid-col--3 { display: none }
+

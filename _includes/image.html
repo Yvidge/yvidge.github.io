@@ -1,0 +1,39 @@
+﻿{% if include.alt and include.alt != '' %}
+    {% assign alt = include.alt %}
+{% else %}
+    {% if include.caption and include.caption != '' %}
+        {% assign alt = include.caption %}
+    {% endif %}
+{% endif %}
+
+{% if include.link %}
+    {% if include.link == true %}
+        {% assign link = include.url %}
+    {% else %}
+        {% if include.link != "" %}
+            {% assign link = include.link %}
+        {% endif %}
+    {% endif %}
+{% endif %}
+
+<figure class="{{ include.class }}">
+    {% if link %}
+    <a href="{{ link }}">
+        {% endif %}
+        {% if include.responsive == false %}
+        <img src="{{ include.url }}" alt="{{ include.caption }}">
+        {% else %}
+        {% assign url = include.url | replace: "%20", "\ " %}
+        {% assign url = url | replace: "./", page.url %}
+        {% picture
+        lazy
+        "{{ url }}"
+        --alt '{{ alt }}' %}
+        {% endif %}
+        {% if link %}
+    </a>
+    {% endif %}
+    {% if include.caption and include.caption != '' %}
+    <figcaption>{{include.caption | markdownify}}</figcaption>
+    {% endif %}
+</figure> 

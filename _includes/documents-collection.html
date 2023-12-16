@@ -1,0 +1,29 @@
+﻿{% assign entries = site[include.collection] %}
+
+{% if include.sort_by == 'title' %}
+    {% if include.sort_order == 'reverse' %}    
+        {% assign entries = entries | sort: 'title' | reverse %}
+    {% else %}
+        {% assign entries = entries | sort: 'title' %}
+    {% endif %}
+    {% elsif include.sort_by == 'date' %}
+        {% if include.sort_order == 'reverse' %}
+            {% assign entries = entries | sort: 'date' | reverse %}
+        {% else %}
+            {% assign entries = entries | sort: 'date' %}
+        {% endif %}
+{% endif %}
+
+{% if include.type %}
+    {% assign filter = include.type %}
+    {% assign entries = entries | where: 'project_type', filter %}
+{% endif %}
+
+{% if include.flag %}
+    {% assign flag = include.flag %}
+    {% assign entries = entries | where: flag, true %}
+{% endif %}
+
+{%- for entry in entries -%}
+    {% include entry.html %}
+{%- endfor -%}
