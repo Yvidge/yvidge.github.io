@@ -1,10 +1,13 @@
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: dark
 title: "Yvidge"
 include: ["_pages"]
 
 
-# Liquid
+plugins:
+  - jekyll-include-cache
+  
+  # Liquid
 liquid:
   error_mode: strict
 
