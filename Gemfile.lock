@@ -264,6 +264,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.9.1-x64-mingw-ucrt)
+    webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -271,6 +272,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 228)
   minimal-mistakes-jekyll
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.22
