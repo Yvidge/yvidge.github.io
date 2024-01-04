@@ -1,33 +1,34 @@
 ---
-layout: single
+layout: collection
 title: Personal products
 permalink: /projects/
+classes: wide
 ---
-These are my personal self-distributed projects
 
 {% capture games %}
-    {% include documents-collection.html collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Game'%}
+    {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Game'%}
 {% endcapture %}
 
 {% capture plugins %}
-    {% include documents-collection.html collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Plugin'%}
+    {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Plugin'%}
 {% endcapture %}
 
 {% capture demos %}
-    {% include documents-collection.html collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Demo'%}
+    {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Demo'%}
 {% endcapture %}
 
----
+<br>
+
 # Games
 
-{% include colcade-grid.html items = games %}
+{% include test-grid.html items = games %}
 
 ---
 # Plugins
 
-{% include colcade-grid.html items = plugins %}
+{% include test-grid.html items = plugins %}
 
 ---
 # Demos
 
-{% include colcade-grid.html items = demos %}
+{% include test-grid.html items = demos %}

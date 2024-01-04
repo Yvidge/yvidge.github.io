@@ -5,17 +5,126 @@ search: false
 
 @charset "utf-8";
 
-$link-color: #ff8888;
+
+// IMPORTED 
+$text: #0a0014;
+$background: #fdfaff;
+$primary: #901dfc;
+$secondary: #fd6dab;
+$accent: #fc404a;
+
+$primary-background-5: rgba($primary, .05);
+$primary-background-20: rgba($primary, .2);
+$secondary-background-5: rgba($secondary, .05);
+$secondary-background-20: rgba($secondary, .2);
+
+$link-color: $primary;
+$link-color-visited: $link-color !default;
+
+$background-color: $background;
+$text-color: $text;
+
+
+// $gray: #7a8288 !default;
+// $dark-gray: mix(#000, $gray, 50%) !default;
+// $b-gray: #100d13 !default;
+
+
+$primary-color: $primary;
+$focus-color: $accent;
+$active-color: $accent;
+
+$border: 1rem;
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Using floats */
-.grid-col {
-  float: left;
-  width: 50%;
+
+hr {
+  border-top: 1px solid rgba(10, 0, 20, 0.05);
 }
 
-/* 2 columns by default, hide columns 2 & 3 */
-.grid-col--2, .grid-col--3 { display: none }
+.test-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.entry-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-title { 
+  margin-top: 5px;
+  text-align: center;
+}
+
+.entry-image{
+  margin-bottom: 20px;
+  horiz-align: center;
+  //width: 500px;
+  border-radius: $border;
+  object-fit: cover;
+}
+
+.entry {
+  background-color: $primary-background-5;
+  border-radius: $border;
+  horiz-align: left;
+  
+  padding: 20px;
+  
+  transition: background-color 0.2s;
+}
+
+.entry:hover {
+  background-color: $primary-background-20;
+}
+
+
+.lang {
+  background-color: $primary-background-5;
+  border-radius: $border;
+  padding: 20px;
+}
+
+h2 {
+  //border-bottom: 1px solid $primary-background-20 !important;
+}
+
+.archive {
+  width: 100% !important;
+}
+.sidebar.sticky,
+.sticky {
+  width: 0 !important;
+  display: none;
+}
+
+.site-title {
+  //background-color: silver;
+  // background-image: ;
+  font-size: 2.1em;
+  //padding: 0px 20px;
+  border-radius: 1000px;
+  //color: linear-gradient(45deg, #901dfc, #fc404a) !important;
+}
+
+.masthead {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.site-title-span {
+  background: linear-gradient(120deg, $primary, $accent);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page__footer {
+  background-color: rgba(10, 0, 20, 0.05);
+}
 

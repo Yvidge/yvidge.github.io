@@ -2,7 +2,7 @@
 title: Scratch&Beat
 header:
 image:
-    thumbnail: assets/images/CuteIso.png
+    thumbnail: assets/images/SnBPreview.png
 project_type: Game
 portfolio: true
 ---

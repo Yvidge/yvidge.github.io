@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Stairs
-header:
-  teaser: assets/images/CuteIso.png
 image:
-  thumbnail: assets/images/CuteIso.png
+  thumbnail: assets/images/StairsPreview.png
 project_type: Game
 ---
 Small horror game about going down the stairs.

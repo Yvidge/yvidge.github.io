@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Turing Machine
-header:
-  teaser: assets/images/CuteIso.png
+image:
+  thumbnail:  assets/images/TuringMachinePreview.png
 project_type: Demo
 portfolio: true
 ---
@@ -12,7 +12,7 @@ Turing machine 3D emulator written in C++ and UE4.
 **Info:** Turing machine is an abstract machine that manipulates symbols on a strip depending on current and defined states. Turing machine can implement any algorithm! [Wikipedia](https://en.wikipedia.org/wiki/Turing_machine#:~:text=A%20Turing%20machine%20is%20a,A%20physical%20Turing%20machine%20model.)
 {: .notice--info}
 
-I made this project as one of my school's assignments. I tried to make it look unique (that's where the idea to make it 3d came from) and a bit retro stylized. 
+I made this project as one of my school assignments. I tried to make it look unique (i.e. 3D) and a bit retro. 
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/GameDevDeadge.jpg){: .align-center}
 
