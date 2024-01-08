@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: Personal products
+title: 
 permalink: /projects/
 classes: wide
 ---
@@ -16,8 +16,6 @@ classes: wide
 {% capture demos %}
     {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Demo'%}
 {% endcapture %}
-
-<br>
 
 # Games
 

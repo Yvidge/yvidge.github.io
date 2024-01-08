@@ -18,7 +18,9 @@ I made this project as one of my school assignments. I tried to make it look uni
 
 This machine supports instant and step by step simulations, editing of tape and state tables, flexible import from spreadsheets. Also it builds action stack for better understanding of execution process.
 
-[Source code on GitHub](https://github.com/Yvidge/TuringMachine)
+<div class = "badge-box">
+  {% include badge-button.html url = "https://github.com/Yvidge/TuringMachine" badge = "GitHub" %}
+</div>
 
 ## The experience I got:
 - Working with procedural UMG widgets in 3D space

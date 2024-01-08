@@ -6,7 +6,7 @@ search: false
 @charset "utf-8";
 
 
-// IMPORTED 
+// COLORS 
 $text: #0a0014;
 $background: #fdfaff;
 $primary: #901dfc;
@@ -36,9 +36,10 @@ $active-color: $accent;
 
 $border: 1rem;
 
-
+@import "timeline";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
 
 
 hr {
@@ -50,6 +51,12 @@ hr {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+}
+
+@media (max-width: 600px) {
+  .test-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .entry-header{
@@ -93,6 +100,21 @@ hr {
 
 h2 {
   //border-bottom: 1px solid $primary-background-20 !important;
+}
+
+.badge-box {
+  display: flex;
+}
+
+.page__content h2 {
+  border-bottom: none;
+}
+
+.badge {
+  border-radius: 0.375rem; 
+  margin: 3px; 
+  height: 50px;
+  display: inline;
 }
 
 .archive {

@@ -1,5 +1,5 @@
 ---
-title: Scratch&Beat
+title: Scratch n Beat
 header:
 image:
     thumbnail: assets/images/SnBPreview.png
@@ -9,6 +9,10 @@ portfolio: true
 Mobile music arcade similar to OSU. I was responsible for implementing and maintaining the entire UI of the game.
 
 I joined this project as part of my internship at DreamVR. After a short time, we planned a complete redesign of the UI, which also meant huge refactoring. So **I was assigned to rewrite the UI subsystem** while implementing new UIs.
+
+<div class = "badge-box">
+    {% include badge-button.html url = "https://play.google.com/store/apps/details?id=com.dreamvrstudiollc.DJArcade" badge = "GooglePlay" %}
+</div>
 
 ## UI System I designed
 System design was inspired by Lyra and the Common UI Plugin.

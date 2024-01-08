@@ -16,7 +16,9 @@ In the ideal case, the user will be able to create any animal that they want. Ho
 - Herd herbivores (zebras)
 - Big herbivores (elephants)
 
-[Source code on GitHub](https://github.com/Yvidge/EcosystemSimulator) 
+<div class = "badge-box">
+  {% include badge-button.html url = "https://github.com/Yvidge/EcosystemSimulator" badge = "GitHub" %}
+</div>
 
 ## The experience I got:
 - Writing documentation

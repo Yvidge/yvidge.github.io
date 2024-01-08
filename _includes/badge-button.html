@@ -1,0 +1,13 @@
+﻿{% assign b = include.badge %}
+
+{% for pair in site.data.badges.badges %}
+    {% assign key = pair | first %}
+    {% assign value = pair | last %}
+    {% if key == b %}
+        {% assign src = value %}
+    {% endif %}
+{% endfor %}
+
+<a href = "{{ include.url | relative_url }}">
+    <img src="{{ src }}" alt="{{ b }}" class="badge">
+</a>

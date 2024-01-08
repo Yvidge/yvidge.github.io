@@ -8,7 +8,9 @@ year:
 ---
 Small game demo I made to figure out more about **Gameplay Ability System**
 
-[Source code on GitHub](https://github.com/Yvidge/GASProject) 
+<div class = "badge-box">
+  {% include badge-button.html url = "https://github.com/Yvidge/GASProject" badge = "GitHub" %}
+</div>
 
 ## The experience I got:
 - Working with Gameplay Ability System
