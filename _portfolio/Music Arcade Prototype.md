@@ -5,6 +5,7 @@ header:
   teaser: assets/images/CuteIso.png
 project_type: Demo
 portfolio: true
+priority: "0"
 ---
 Project that I made during my internship at DreamVR. 
 

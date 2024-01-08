@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: collection
 permalink: /about/
 title: About
 classes: wide
@@ -15,7 +15,11 @@ In my free time, I develop my own independent games and plugins. Take a look [he
 
 {% include timeline.html entries = jobs %}
 
-{% include languages.html %}
+{% comment %}{% include languages.html %}{% endcomment %}
+
+## Languages:
+- Russian: Native
+- English: Intermediate
 
 ## Silly little facts
 

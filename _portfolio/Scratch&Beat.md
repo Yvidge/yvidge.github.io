@@ -1,10 +1,11 @@
 ---
 title: Scratch n Beat
-header:
+header: 
 image:
-    thumbnail: assets/images/SnBPreview.png
+  thumbnail: assets/images/SnBPreview.png
 project_type: Game
 portfolio: true
+priority: "100"
 ---
 Mobile music arcade similar to OSU. I was responsible for implementing and maintaining the entire UI of the game.
 

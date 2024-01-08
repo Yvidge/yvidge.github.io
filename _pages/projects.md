@@ -17,16 +17,16 @@ classes: wide
     {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Demo'%}
 {% endcapture %}
 
-# Games
+# Games 🎮
 
 {% include test-grid.html items = games %}
 
 ---
-# Plugins
+# Plugins 🔌
 
 {% include test-grid.html items = plugins %}
 
 ---
-# Demos
+# Demos ⚙
 
 {% include test-grid.html items = demos %}

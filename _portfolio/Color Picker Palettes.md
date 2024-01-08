@@ -5,7 +5,8 @@ image:
   thumbnail: assets/images/ColorPickerPalettesPreview.png
 project_type: Plugin
 portfolio: true
-year:
+year: 
+priority: "-1"
 ---
 
 Simple UE plugin that makes the work under the color guide easier.

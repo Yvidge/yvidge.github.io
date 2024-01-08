@@ -12,6 +12,12 @@
         {% else %}
             {% assign entries = entries | sort: 'date' %}
         {% endif %}
+    {% elsif include.sort_by == 'priority' %}
+        {% if include.sort_order == 'reverse' %}
+            {% assign entries = entries | sort: 'priority' %}
+        {% else %}
+            {% assign entries = entries | sort: 'priority' | reverse %}
+        {% endif %}
 {% endif %}
 
 {% if include.type %}

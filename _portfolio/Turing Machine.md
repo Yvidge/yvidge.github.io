@@ -2,9 +2,10 @@
 layout: single
 title: Turing Machine
 image:
-  thumbnail:  assets/images/TuringMachinePreview.png
+  thumbnail: assets/images/TuringMachinePreview.png
 project_type: Demo
 portfolio: true
+priority: "0"
 ---
 Turing machine 3D emulator written in C++ and UE4.
 

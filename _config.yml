@@ -25,7 +25,21 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Yvidge"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/Yvidge"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discordapp.com/users/339373625121701890"    
 
+atom_feed:
+  hide: true
+  
 defaults:
   # _portfolio
   - scope:
