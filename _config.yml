@@ -11,7 +11,7 @@ sass:
   load_paths:
     - _sass
     - _site/assets/css
-    - _site/assets/css
+    - assets/css
 
 # Liquid
 liquid:
