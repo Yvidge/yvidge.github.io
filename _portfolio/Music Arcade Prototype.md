@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Music Arcade Prototype
-header:
-  teaser: assets/images/CuteIso.png
+image:
+  thumbnail: assets/images/MusicArcadePrototype01.png
 project_type: Demo
 portfolio: true
 priority: "0"

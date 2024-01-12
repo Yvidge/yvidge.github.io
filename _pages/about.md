@@ -23,7 +23,7 @@ In my free time, I develop my own independent games and plugins. Take a look [he
 
 ## Silly little facts
 
-- I like weird (just like myself) animals such as fish, isopods, snails, and frogs
-- I have 2 awesome pet toads 
-- my favourite food is shrimp
-- I like the ocean and also I have thalassophobia (fear of deep water)
+- I really like weird animals such as fish, isopods, snails, and frogs 💖
+- I have 2 awesome pet toads 🐸🐸
+- My favourite food is shrimp 🦐
+- I like the ocean and also I have thalassophobia (fear of deep water) 🐙

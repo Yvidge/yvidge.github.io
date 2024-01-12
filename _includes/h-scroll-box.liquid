@@ -1,0 +1,30 @@
+﻿
+<div class = "h-scroll-box" id = "scroll" >
+    {{ include.items }}
+</div>
+
+    
+<script>
+    
+    let ScrollBox = document.getElementById("scroll");
+    
+    function AutoScroll(){
+        ScrollBox.scrollLeft += 300;
+        let bScrolledToEnd = ScrollBox.scrollWidth - ScrollBox.scrollLeft === ScrollBox.clientWidth;
+        if(bScrolledToEnd) {
+            ScrollBox.scrollLeft = 0;
+        }
+    }
+    
+    let timerId = setTimeout(AutoScroll, 4000);
+
+    ScrollBox.addEventListener("scroll", (event) => {
+        clearTimeout(timerId);
+    });
+    
+    ScrollBox.addEventListener("scrollend", (event) => {
+        clearTimeout(timerId);
+        timerId = setTimeout(AutoScroll, 4000);
+    });
+    
+</script>

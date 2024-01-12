@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Ecosystem simulator
-header:
-  teaser: assets/images/CuteIso.png
+image:
+  thumbnail: assets/images/EcosystemSim.png
 project_type: Demo
 ---
 This is a small project about animals and AI programming.

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: GAS Project
-header:
-  teaser: assets/images/CuteIso.png
+image:
+    thumbnail: assets/images/GASDemo.png
 project_type: Demo
 year:
 ---

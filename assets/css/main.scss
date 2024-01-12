@@ -102,6 +102,99 @@ h2 {
   //border-bottom: 1px solid $primary-background-20 !important;
 }
 
+.fancy-text {
+  font-size: 3.1em;
+  //font-weight: normal;
+  text-align: center;
+  //letter-spacing: 0.2em;
+  //font-family: "Hotel De Paris Xe";
+  //font-family: "Arial";
+}
+
+.h-landing {
+  text-align: center; font-size: 2.5em;
+}
+
+
+.button {
+  padding: 0.5em 2em;
+  border-radius: 0.5rem;
+  display: inline-block;
+  z-index: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  outline: none !important;
+  border: none;
+}
+
+.primary-button {
+  background-color: $primary;
+  color: rgb(253, 250, 255) !important;
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.primary-button:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 80px -10px $primary;
+}
+
+.secondary-button {
+  background-color: rgba($secondary, 0.3);
+  color: $text !important;
+  transition: transform ease 0.2s;
+}
+
+.secondary-button:hover {
+  transform: translate(0, -3px);
+  transition: transform ease 0.2s;
+}
+
+
+.h-scroll-box {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: 30px;
+  padding-bottom: 10px;
+  overflow-x: auto;
+  box-sizing: border-box;
+  
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.h-scroll-box::-webkit-scrollbar {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.h-scroll-box::-webkit-scrollbar-track {
+  //background: transparent;
+  background-color: rgba(#e4e4e4, 0.5);
+  border-radius: 100px;
+}
+
+.h-scroll-box::-webkit-scrollbar-thumb:horizontal {
+  background-color: rgba($secondary, 0.5);
+  border-radius: 10px;
+}
+
+.h-scroll-box::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: rgba($secondary, 0.8);
+}
+
+.h-scroll-box > * {
+  scroll-snap-align: start;
+}
+
+@media only screen and (min-width: 768px) {
+  .h-scroll-box {
+    grid-auto-columns: 43%;
+  }
+}
+
 .badge-box {
   display: flex;
 }
