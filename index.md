@@ -15,7 +15,7 @@ I like programming, video games and pretty UIs.
 
 <div style="display: flex; column-gap: 20px; row-gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px">
     <a href="/about" class="secondary-button button"> More about me </a>
-    <a href="/about" class="primary-button button"> Portfolio </a>
+    <a href="/portfolio" class="primary-button button"> Portfolio </a>
     <a href="/projects" class="secondary-button button"> All projects </a>
 </div>
 
