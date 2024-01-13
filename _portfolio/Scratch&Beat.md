@@ -6,13 +6,26 @@ image:
 project_type: Game
 portfolio: true
 priority: "100"
+year: 2023
 ---
 Mobile music arcade similar to OSU. I was responsible for implementing and maintaining the entire UI of the game.
 
+<figure>
+  <img src="/assets/images/SnBPreview.png"> 
+</figure>
+
 I joined this project as part of my internship at DreamVR. After a short time, we planned a complete redesign of the UI, which also meant huge refactoring. So **I was assigned to rewrite the UI subsystem** while implementing new UIs.
 
+UI design by Mikhail Sizov ✨
+
+<figure class="third" style="margin-bottom: 0px">
+  <img src="/assets/images/SnB01.png">
+  <img src="/assets/images/SnB02.png">
+  <img src="/assets/images/SnB03.png">
+</figure>
+
 <div class = "badge-box">
-    {% include badge-button.html url = "https://play.google.com/store/apps/details?id=com.dreamvrstudiollc.DJArcade" badge = "GooglePlay" %}
+  {% include badge-button.html url = "https://play.google.com/store/apps/details?id=com.dreamvrstudiollc.DJArcade" badge = "GooglePlay" %}
 </div>
 
 ## UI System I designed
