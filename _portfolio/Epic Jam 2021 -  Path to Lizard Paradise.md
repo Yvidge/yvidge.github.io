@@ -11,7 +11,7 @@ Project made for EpicMegaJam 2021
 
 ![GAS](/assets/images/PTLP01.png)
 
-Made as team of 5. I was responsible for game's code and implementation of team member's assets.
+Made by a team of 5. I was responsible for the game's code and implementation of the team members' assets.
 
 ![GAS](/assets/images/PTLP02.png)
 
@@ -29,7 +29,7 @@ Adorable creatures by [Max L](https://www.artstation.com/burnaboy)
 </div>
 
 ## The experience I got:
-- Participating in game jam, working under time pressure
+- Participating in a game jam, working under time pressure
 - Making technical decisions
 - Brainstorming and feature development
 - Understanding and cutting development scope

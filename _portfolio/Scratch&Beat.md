@@ -35,7 +35,7 @@ A UI system with these key characteristics was created:
 - Supports async actions  
 - Is quickly and easily extensible   
 - Uses fewer hard dependencies   
-- Has a convenient and explicit way of controlling which widgets are shown at each moment and how they overlay with each other. There are no more 999 different hardcoded Z-orders.
+- Has a convenient and explicit way of controlling which widgets are shown at each moment and how they overlay with each other. There are no more 999 different hard-coded Z-orders.
 
 ### Balance between C++ and BP  
 For our needs, we decided to have all functionality in CPP and use BP only for layout and insignificant visual-related code. `BindWidget` and `BindAnimation` meta modifiers are used to control BP components in C++.
@@ -43,7 +43,7 @@ For our needs, we decided to have all functionality in CPP and use BP only for l
 However, I think this is not the best approach in terms of iteration speed and flexibility, especially when you are working under a deadline. If I were doing it now, I would look at MVVM architecture and Epic's UMG MVVM plugin.
 
 ## The experience I got:  
-- Lot's of work with UMG and Common UI   
+- Lots of work with UMG and Common UI   
 - Teamwork, planning, and AGILE  
 - Close work with a design team, rapid prototyping and iterating  
 - Writing materials for UI's needs 

@@ -12,14 +12,14 @@ Small horror game about going down the stairs.
   <img src="/assets/images/StairsPreviewHR.png">
 </figure>
 
-I made this game as a funny remake / free interpretation of [SCP-087-b](https://www.scpcbgame.com/scp-087-b.html). The core part are similar, but Stairs has more content, different encounters and sanity system.
+I made this game as a funny remake / free interpretation of [SCP-087-b](https://www.scpcbgame.com/scp-087-b.html). The core part is similar to the original, but Stairs has more content, different encounters and sanity system.
 
-Also this is my first complete **game,** and not just demo or tool.
+Also, this is my first complete solo made **game,** rather than a demo or tool.
 
 ![Stairs](/assets/images/Stairs02.png)
 ![Stairs](/assets/images/Stairs03.png)
 
-The game has fun feature with runtime texture loading - you can change walls and floors to anything you want 
+The game has a fun feature with runtime texture loading - you can change walls and floors to anything you want 
 
 ![Stairs](/assets/images/Stairs01.png)
 
@@ -29,6 +29,6 @@ The game has fun feature with runtime texture loading - you can change walls and
 </div>
 
 ## The experience I got:
-- Creating game as solo developer from idea to release
+- Creating game as a solo developer from idea to release
 - Searching for free assets, creating content from limited resources
-- Finding workarounds if the mechanics / content turns out to be too expensive to develop
+- Finding workarounds when the mechanics / content turns out to be too expensive to develop

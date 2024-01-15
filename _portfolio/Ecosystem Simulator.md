@@ -10,11 +10,11 @@ This is a small project about animals and AI programming.
 
 ![EcosystemSim](/assets/images/EcosystemSim.png)
 
-The target of this project is to create a flexible system that allows to construct different animals from building blocks (components) and configure their behavior with a few variables. Of course animals are complicated, so behavior in simulation will be simplified.
+The target of this project is to create a flexible system that allows to construct different animals from building blocks (components) and configure their behavior with a few variables. Of course, animals are complicated, so behavior in simulation will be simplified.  
 
 ![EcosystemSim](/assets/images/EcoSim02.png)
 
-In the ideal case, the user will be able to create any animal that they want. However, due to difficulties in visual and animation there are only few animals which reflect different archetypes, such as
+Ideally, the user will be able to create any animal they want. However, due to difficulties in visual and animation there are only few animals which reflect different archetypes, such as
 - Small herbivores (Savannah mini pigs, my fictional species of animal)
 - Big predators (lions)
 - Scavengers (hyenas)
@@ -32,4 +32,4 @@ In the ideal case, the user will be able to create any animal that they want. Ho
 - Working with AI and behavior trees
 - Working with EQS
 - Creating component based architecture
-- Creating UI to provide information about animal's state
+- Creating UI to provide information about an animals' state

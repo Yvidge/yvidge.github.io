@@ -12,7 +12,7 @@ Small game demo I made to figure out more about **Gameplay Ability System**
     <img src="/assets/images/GAS01.png">
 </figure>
 
-I tried to make visual style as simple as possible and accents with Niagara VFXs.
+I tried to make the visual style as simple as possible and add accents with Niagara VFXs.
 
 ![GAS](/assets/images/GAS03.png)
 
