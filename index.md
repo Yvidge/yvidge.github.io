@@ -8,7 +8,7 @@ classes: wide
 
 
 <p style="text-align: center; margin: 60px 0 25px 0; font-size: 34px;">
-I'm <span style="font-weight: bold">Anton. </span>I’m an Unreal Engine <span style="font-weight: bold">UI Developer.</span> <br>
+I'm <span style="font-weight: bold">Anton,</span> an Unreal Engine <span style="font-weight: bold">UI Developer.</span> <br>
 I like programming, video games and pretty UIs.
 </p>
 
