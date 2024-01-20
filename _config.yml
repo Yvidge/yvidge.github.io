@@ -3,9 +3,10 @@ minimal_mistakes_skin: dark
 title: "Yvidge"
 include: ["_pages"]
 
-
+url: "https://yvidge.github.io/"
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
   
 sass:   
   load_paths:
