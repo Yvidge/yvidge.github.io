@@ -77,6 +77,17 @@ hr {
   object-fit: cover;
 }
 
+.entry-link {
+  text-decoration: none;
+  color: unset;
+  display: flex;
+}
+
+.entry-link:visited {
+  text-decoration: none;
+  color: unset;
+}
+
 .entry {
   background-color: $primary-background-5;
   border-radius: $border;
