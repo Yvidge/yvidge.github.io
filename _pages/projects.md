@@ -5,6 +5,11 @@ permalink: /projects/
 classes: wide
 ---
 
+
+{% capture all %}
+    {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'year'%}
+{% endcapture %}
+
 {% capture games %}
     {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Game'%}
 {% endcapture %}
@@ -17,7 +22,9 @@ classes: wide
     {% include documents-collection.html.liquid collection='portfolio' sort_order='reverse' sort_by = 'date' type = 'Demo'%}
 {% endcapture %}
 
-# Games 🎮
+{% include colcade-grid.html items = all %}
+
+{% comment %}# Games 🎮
 
 {% include test-grid.html items = games %}
 
@@ -29,4 +36,4 @@ classes: wide
 ---
 # Demos ⚙
 
-{% include test-grid.html items = demos %}
+{% include test-grid.html items = demos %}{% endcomment %}

@@ -18,6 +18,12 @@
         {% else %}
             {% assign entries = entries | sort: 'priority' | reverse %}
         {% endif %}
+    {% elsif include.sort_by == 'year' %}
+        {% if include.sort_order == 'reverse' %}
+            {% assign entries = entries | sort: 'year' | reverse %}
+        {% else %}
+            {% assign entries = entries | sort: 'year' %}
+        {% endif %}
 {% endif %}
 
 {% if include.type %}

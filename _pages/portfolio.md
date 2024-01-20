@@ -9,4 +9,4 @@ classes: wide
     {% include documents-collection.html.liquid collection='portfolio' sort_by = 'priority' flag = 'portfolio'%}
 {% endcapture %}
 
-{% include test-grid.html items = portfolio %}
+{% include colcade-grid.html items = portfolio %}

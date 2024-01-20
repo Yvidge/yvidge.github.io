@@ -40,7 +40,19 @@ $border: 1rem;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Using floats */
 
+.entry-col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.entries-grid-colcade{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
 
 hr {
   border-top: 1px solid rgba(10, 0, 20, 0.05);
@@ -72,7 +84,7 @@ hr {
 .entry-image{
   margin-bottom: 20px;
   horiz-align: center;
-  //width: 500px;
+  //width: 200px;
   border-radius: $border;
   object-fit: cover;
 }
@@ -80,7 +92,7 @@ hr {
 .entry-link {
   text-decoration: none;
   color: unset;
-  display: flex;
+  //display: flex;
 }
 
 .entry-link:visited {

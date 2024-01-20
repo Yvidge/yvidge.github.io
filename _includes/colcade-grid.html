@@ -1,5 +1,15 @@
-<div class="grid" data-colcade="columns: .grid-col, items: .grid-item" >
-    <div class="grid-col grid-col--1"></div>
-    <div class="grid-col grid-col--2"></div>
+<div class="entries-grid-colcade" data-colcade="columns: .entry-col, items: .entry" >
+    <div class="entry-col entry-col--1"></div>
+    <div class="entry-col entry-col--2"></div>
+    
     {{ include.items }}
 </div>
+
+<script src="https://npmcdn.com/colcade@0/colcade.js"></script>
+<script>
+    // selector string as first argument
+    var colc = new Colcade( '.entries-grid-colcade', {
+        columns: '.entry-col',
+        items: '.entry-link'
+    });
+</script>
