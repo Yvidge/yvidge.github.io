@@ -3,6 +3,7 @@ layout: collection
 permalink: /about/
 title: About
 classes: wide
+toc: false
 ---
 
 Hi, I’m Anton! I’m an Unreal Engine UI Developer. I’d been messing around with UE for many years and 2 years ago, I decided to start doing it professionally 🙃

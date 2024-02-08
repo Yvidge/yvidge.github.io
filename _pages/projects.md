@@ -3,6 +3,7 @@ layout: collection
 title: 
 permalink: /projects/
 classes: wide
+toc: false
 ---
 
 {% capture games %}

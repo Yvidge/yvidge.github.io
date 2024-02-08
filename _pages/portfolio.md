@@ -3,6 +3,7 @@ title: Portfolio
 layout: collection
 permalink: /portfolio/
 classes: wide
+toc: false
 ---
 
 {% capture portfolio %}
