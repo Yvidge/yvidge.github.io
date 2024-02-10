@@ -9,10 +9,10 @@ toc_sticky: true
     </style>
 </head>
 
-My notes on typography as a complete newbie sus
+My notes on typography as a complete newbie
 
 ## Sources
-This note is a summary of these videos:  
+Thеsе notes are a summary of these videos:  
 [The Ultimate Guide to Typography | FREE COURSE - YouTube](https://www.youtube.com/watch?v=yAuUDyUC-GM)  
 [Typography for Developers Tutorial - Full Course - YouTube](https://www.youtube.com/watch?v=agbh1wbfJt8)  
 
@@ -41,7 +41,7 @@ Typography vs Lettering:
 **12th century:** Black letter — gothic style calligraphy script used by monks  
 **15 - 16th centuries:** Roman typefaces became popular because blackletter was hard to read  
 **18th century:** serif fonts  
-**Industrial revolution:** start of design experiments. Magazines and promotion material. Slab serif.  
+**Industrial revolution:** start of design experiments. Magazines and promotion materials. Slab serif.  
 **Late 1920:** Futura (sans serif), Gill Sans  
 **1950s, Switzerland:** Helvetica typeface quickly came in use in every form of printing.  
 **Computer revolution:** many experiments with design.  
@@ -64,7 +64,7 @@ Typography vs Lettering:
 
 ## Classification
 ### Serif
-Serifs are small feet at the end of a stroke on the letter. Character used to be created by chiseling on stone. Serifs help the reader follow the letter forms.  
+Serifs are small feet at the end of a stroke on the letter. Characters used to be created by chiseling on stone. Serifs help the reader follow the letter forms.  
 Books, magazines, newspapers.
 
 - Humanist (1460s) — strong calligraphic influence, diagonal stress, lower strokes contrast. (Sorts Mill Goudy)  
@@ -81,14 +81,14 @@ Books, magazines, newspapers.
 These typefaces can be used as body copy as they are easy to read (except Slab serif)
 
 ### Sans Serif
-Sans comes from the French, means without. So Sans Serif means **Without Serifs**
+Sans comes from French, meaning "without". So Sans Serif means **Without Serifs**
 - Grotesque (1900's) — slight contrast between strokes, open aperture gap (a and e), double story on “g” (Bw Glenn Sans, Bricolage Grotesque)  
 <span style ="font-family: 'Bricolage Grotesque'; font-size:2em">Whereas recognition of the inherent dignity</span>
 - Neo Grotesque (later in the 1900s) — uniform stroke, close aperture gap, single story “g” (Helvetica, Physis, Work Sans)  
 <span style ="font-family: 'Work Sans', Arial; font-size:2em">Whereas recognition of the inherent dignity</span>
 - Humanist — calligraphic influence, Roman style proportions, slight strokes contrast, slight stress, wider aperture, double story “g” (Tahoma, Gill Sans Nova, Cabin)  
 <span style ="font-family: Cabin, Arial; font-size:2em">Whereas recognition of the inherent dignity</span>
-- Geometric — little to no stroke contras, rectangular and circles, typically vertical stress (Futura, Geo)  
+- Geometric — little to no stroke contrast, rectangles and circles, typically vertical stress (Futura, Geo)  
 <span style ="font-family: Geo, Arial; font-size:2em">Whereas recognition of the inherent dignity</span>
 
 Sans Serifs aim high legibility at long distance and in body copy.
@@ -117,7 +117,7 @@ These fonts don't really fit into any of the previous categories. Not suitable f
 
 ## Type Families
 
-The idea behind type families is that characters within the family would share a common DNA with slight distinctions. Having such a wide range of typeface weights gives us the ability to create hierarchystaying minimalistic.
+The idea behind type families is that characters within the family would share a common DNA with slight distinctions. Having such a wide range of typeface weights gives us the ability to create hierarchy staying minimalistic.
 
 - Font Weight — from ulta light to extra black
 - Style / Italic — true italic (more calligraphic) or oblique (less calligraphic, slight slant)
@@ -144,7 +144,7 @@ The arrangement of words in order to make written content flow in a clear, simpl
 - Type Size — between 12 and 14 pixels for body copy
 - Type Case — UPPERCASE is hard to read, use Sentence Case for body copy
 - Line Space or Leading — rule of thumb is to have a letting value between 1.25 and 1.5 times greater than the font size
-- Line Length or Column Width. Too narrow — too much eye jumps; too wide — hard to follow. Normal amount is 45 - 70 characters per line
+- Line Length or Column Width. Too narrow — too much eye jumping; too wide — hard to follow. Normal amount is 45 - 70 characters per line
 - Kerning and Tracking
 > Kerning — amount of space between specific pairs of characters (e.g. We)  
 > Tracking — space between a group of letters in a block of text. <span style="letter-spacing:5px;"> Example.</span> Useful when working with all caps or heavier weight fonts.  
@@ -170,13 +170,13 @@ Display:
 <br> Can be anything from casual to formal.
 <br> Use only for short display as they are illegible.
 - Display (obviously)
-<br> Actually, anything than not fit in categories above.
+<br> Actually, anything that doesn't fit in the categories above.
 
 ## Font combination
 - Easy way: use a single font family. Use different weights, sizes, and colors to create hierarchy.
 - Keep it minimal: combine only 2 to 3 different fonts.
 - You may try combining display with serif or sans serif.
-- Fit your fonts in a context of a project.
+- Fit your fonts into the context of a project.
 - Combine fonts from the same Designer.
 - [Try font duos](https://elements.envato.com/fonts/font+duos)
 
