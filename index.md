@@ -2,6 +2,7 @@
 layout: collection
 title: 
 classes: wide
+description: Yvidge - Unreal Engine / C++ Developer / UI Engineer. I have a great passion for video games and game development. Here you can find my projects, portfolio and more!
 ---
 
 <h1 class = "fancy-text"> Hello✌ </h1>
